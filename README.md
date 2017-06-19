@@ -1,4 +1,3 @@
-# getguided.net
 
 ## Getting Started
 
