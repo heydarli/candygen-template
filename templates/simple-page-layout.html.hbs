@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+
+<head>
+    {{> meta pageTitle=title}}
+</head>
+
+<body>
+    {{> header page=pageId}}
+    
+    <section class="section">
+        <div class="container">
+            {{{ content }}}
+        </div>
+    </section>
+
+    {{> footer}} {{> endofpage}}
+</body>
+
+</html>
