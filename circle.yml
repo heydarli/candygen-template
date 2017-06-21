@@ -3,3 +3,9 @@ dependencies:
     - npm install candygen -g
   post:
     - candygen once
+deployment:
+  production:
+    branch: master
+    commands:
+      - npm install -g firebase-tools
+      - firebase deploy --token=$FIREBASE_TOKEN --non-interactive
