@@ -1,3 +1,5 @@
 dependencies:
   pre:
-    - echo "npm install candygen -g"
+    - npm install candygen -g
+  post:
+    - candygen once
