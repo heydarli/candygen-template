@@ -7,6 +7,5 @@ deployment:
   production:
     branch: master
     commands:
-      - cd website
-      - candygen once
-      - firebase deploy --token=$FIREBASE_TOKEN --non-interactive
+      - cd website && candygen once
+      - cd website && firebase deploy --token=$FIREBASE_TOKEN --non-interactive
